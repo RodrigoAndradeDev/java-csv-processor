@@ -19,13 +19,13 @@ Este projeto demonstra o domínio em Data Streaming e I/O Management utilizando 
 A estrutura de pacotes foi desenhada para facilitar a manutenção e escalabilidade, seguindo padrões de projetos profissionais:
 Plaintext
 
-src/
- ├── application/
- │    └── Main.java         # Controller: Orquestra o fluxo de dados e I/O
- └── model/
-      ├── entities/
-           └── Product.java # Entity: Domínio com lógica de cálculo encapsulada
-
+    src/
+     ├── application/
+     │    └── Main.java         # Controller: Orquestra o fluxo de dados e I/O
+     └── model/
+          ├── entities/
+               └── Product.java # Entity: Domínio com lógica de cálculo encapsulada
+    
 🚀 Fluxo de Execução
 
     Monitoramento de Caminho: Identifica o arquivo fonte .csv dinamicamente.
@@ -40,17 +40,17 @@ src/
 
 📊 Especificações de Dados
 
-Input Format (exemplo.csv):
-Snippet de código
+    Input Format (exemplo.csv):
+    Snippet de código
 
-Apple TV,700.50,10
-iPhone X,900.00,2
+    Apple TV,700.50,10
+    iPhone X,900.00,2
 
-Output Format (summary.csv):
-Snippet de código
+    Output Format (summary.csv):
+    Snippet de código
 
-Apple TV,7005.00
-iPhone X,1800.00
+    Apple TV,7005.00
+    iPhone X,1800.00
 
 ⚙️ Requisitos
 
